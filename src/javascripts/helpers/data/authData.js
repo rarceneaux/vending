@@ -19,7 +19,7 @@ const checkLoginStatus = () => {
       // logging out view
       stockDiv.addClass('hide');
       logoutNavbar.addClass('hide');
-      authDiv.removeClass('hide');
+      authDiv.removeClass('hide7');
     }
   });
 };
