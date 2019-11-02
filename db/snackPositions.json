@@ -16,5 +16,17 @@
     "snackId": "snack3",
     "machineId": "machine1",
     "uId": "AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+  },
+  "snackPosition4": {
+    "positionId": "position7",
+    "snackId": "snack4",
+    "machineId": "machine1",
+    "uId": "AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+  },
+   "snackPosition5": {
+    "positionId": "position10",
+    "snackId": "snack5",
+    "machineId": "machine2",
+    "uId": "12345"
   }
 }

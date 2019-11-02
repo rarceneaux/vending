@@ -3,6 +3,7 @@ import firebase from 'firebase';
 import auth from './components/Auth/auth';
 import authData from './helpers/data/authData';
 import myNavbar from './components/myNavBar/myNavBar';
+import machine from './components/machine/machine';
 
 import apiKeys from './helpers/apiKeys.json';
 
@@ -15,6 +16,7 @@ const init = () => {
   auth.loginButton();
   myNavbar.logoutEvent();
   // console.error('hi', firebase.apps);
+  machine.buildThemachine();
 };
 
 init();
