@@ -1,0 +1,42 @@
+{
+  "snack1": {
+    "imgaeUrl": "https://images.freshop.com/00034000226702/881e37931ae0c0f092fafb3df47bcad0_medium.png",
+    "name": "Food",
+    "price": 6,
+    "currentStocked": 6,
+    "lifetimeNum": 9,
+    "uid": "AqUxcbXtO6TnuJWSiHcX7i4oplG2"  
+  },
+    "snack2": {
+    "imgaeUrl": "https://images.freshop.com/00034000226702/881e37931ae0c0f092fafb3df47bcad0_medium.png",
+    "name": "candy1",
+    "price": 7,
+    "currentStocked": 6,
+    "lifetimeNum": 6,
+    "uid": "AqUxcbXtO6TnuJWSiHcX7i4oplG2" 
+  }, 
+    "snack3": {
+    "imgaeUrl": "https://images.freshop.com/00034000226702/881e37931ae0c0f092fafb3df47bcad0_medium.png",
+    "name": "pice",
+    "price": 6,
+    "currentStocked": 6,
+    "lifetimeNum": 8,
+    "uid": "AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+  },
+    "snack4": {
+    "imgaeUrl": "https://images.freshop.com/00034000226702/881e37931ae0c0f092fafb3df47bcad0_medium.png",
+    "name": "test1",
+    "price": 4,
+    "currentStocked": 4,
+    "lifetimeNum": 12,
+    "uid": "AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+  },
+  "snack5": {
+    "imgaeUrl": "https://images.freshop.com/00034000226702/881e37931ae0c0f092fafb3df47bcad0_medium.png",
+    "name": "testc",
+    "price": 7,
+    "currentStocked": 5,
+    "lifetimeNum": 5,
+    "uid": "12345"    
+  }
+}
