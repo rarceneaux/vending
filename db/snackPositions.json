@@ -1,0 +1,20 @@
+{
+  "snackPosition1": {
+    "positionId": "position1",
+    "snackId": "snack1",
+    "machineId": "machine1",
+    "uId": "AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+  },
+  "snackPosition2": {
+    "positionId": "position2",
+    "snackId": "snack2",
+    "machineId": "machine1",
+    "uId": "AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+  },
+  "snackPosition3": {
+    "positionId": "position5",
+    "snackId": "snack3",
+    "machineId": "machine1",
+    "uId": "AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+  }
+}
