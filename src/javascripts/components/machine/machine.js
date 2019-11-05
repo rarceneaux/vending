@@ -1,18 +1,19 @@
 import smash from '../../helpers/data/smash';
 import utils from '../../helpers/utils';
+
 import snack from '../snack/snack';
 import './machine.scss';
 
 
-const buildThemachine = () => {
+const buildTheMachine = () => {
   smash.getCompleteMachine()
     .then((positions) => {
       let domString = '<h2> Vending Machine</h2>';
-      domString += '<div id="snack-selection" class="d-flex flex-wrap">';
+      domString += '<div id="snack-section" class="d-flex flex-wrap">';
       positions.forEach((position) => {
         domString += snack.makeASnack(position);
       });
-      domString += '<div>';
+      domString += '</div>';
       utils.printToDom('stock', domString);
     })
     .catch((error) => console.error(error));
@@ -25,4 +26,4 @@ const buildThemachine = () => {
   // 5 return an array of positions in order (a1,a2,a3) so positions should have position snack exist at that positin
 };
 
-export default { buildThemachine };
+export default { buildTheMachine };

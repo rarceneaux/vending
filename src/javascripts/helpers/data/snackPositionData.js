@@ -8,14 +8,17 @@ const getAllSnackPositionsByMachineId = (machineId) => new Promise((resolve, rej
     .then((response) => {
       const demSnackPositions = response.data;
       const snackPositions = [];
-      Object.keys(demSnackPositions).forEach((snackId) => {
-        demSnackPositions[snackId].id = snackId;
-        snackPositions.push(demSnackPositions[snackId]);
+      Object.keys(demSnackPositions).forEach((fbId) => {
+        demSnackPositions[fbId].id = fbId;
+        snackPositions.push(demSnackPositions[fbId]);
       });
       resolve(snackPositions);
-    // hard code
     })
     .catch((error) => reject(error));
 });
 
-export default { getAllSnackPositionsByMachineId };
+const deleteSnackPosition = (snackPositionId) => axios.delete(`${baseUrl}/snackPositions/${snackPositionId}.json`);
+
+const createSnackPosition = (newSnackPosition) => axios.post(`${baseUrl}/snackPositions.json`, newSnackPosition);
+
+export default { getAllSnackPositionsByMachineId, deleteSnackPosition, createSnackPosition };
