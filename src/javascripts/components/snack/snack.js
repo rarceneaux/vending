@@ -15,12 +15,13 @@ const makeASnack = (position) => {
   } else {
     domString += `
     <div class="card col-4">
-      <div class="card-body">
-      <p class="card-text">EMPTY</p>
-      <p class="card-text">${position.position}</p>
-    </div>
-  </div>`;
+  <div class="card-body">
+    <p class="card-text">EMPTY</p>
+    <p class="card-text">${position.position}</p>
+  </div>
+</div>`;
   }
+
   return domString;
 };
 

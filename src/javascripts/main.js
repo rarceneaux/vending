@@ -16,7 +16,7 @@ const init = () => {
   auth.loginButton();
   myNavbar.logoutEvent();
   // console.error('hi', firebase.apps);
-  machine.buildThemachine();
+  machine.buildTheMachine();
 };
 
 init();
