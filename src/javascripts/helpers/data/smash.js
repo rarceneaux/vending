@@ -15,7 +15,7 @@ const getCompleteMachine = () => new Promise((resolve, reject) => {
     .then((positions) => {
       snackPositionData.getAllSnackPositionsByMachineId(positions[0].machineId)
         .then((snackPositions) => {
-          snackData.getSnacksByUid(positions[0].uid).then((snacks) => {
+          snackData.getSnacksByUid(snackPositions[0].uId).then((snacks) => {
             const newPositions = [];
             positions.forEach((position) => {
               const newP = { ...position };

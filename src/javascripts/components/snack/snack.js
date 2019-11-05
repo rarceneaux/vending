@@ -1,6 +1,7 @@
 import './snack.scss';
 
 const makeASnack = (position) => {
+  console.log(position);
   let domString = '';
   if (position.snack.name) {
     domString += `

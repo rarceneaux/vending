@@ -8,6 +8,7 @@ import './machine.scss';
 const buildTheMachine = () => {
   smash.getCompleteMachine()
     .then((positions) => {
+      console.log(positions);
       let domString = '<h2> Vending Machine</h2>';
       domString += '<div id="snack-section" class="d-flex flex-wrap">';
       positions.forEach((position) => {
