@@ -1,30 +1,39 @@
+import $ from 'jquery';
 import smash from '../../helpers/data/smash';
 import utils from '../../helpers/utils';
 
 import snack from '../snack/snack';
 import './machine.scss';
+import snackData from '../../helpers/data/snackData';
 
+const buySnack = (e) => {
+  e.stopImmediatePropagation();
+  const snackId = e.target.id.split('buy-')[1];
+  snackData.buySnack(snackId)
+    // eslint-disable-next-line no-use-before-define
+    .then(() => buildTheMachine())
+    .catch((error) => console.error(error));
+};
 
 const buildTheMachine = () => {
   smash.getCompleteMachine()
     .then((positions) => {
-      console.log(positions);
-      let domString = '<h2> Vending Machine</h2>';
+      // build a dom string - done
+      // h2 that says VENDING MACHINE - done
+      // div with an id = snack-section, class=d-flex flex-wrap - done
+      // forEach over positions - call a component called snacks - done
+      // snacks component should return a bootstrap card - done
+      // printToDom('stock', domString) - done
+      let domString = '<h2>VENDING MACHINE</h2>';
       domString += '<div id="snack-section" class="d-flex flex-wrap">';
       positions.forEach((position) => {
         domString += snack.makeASnack(position);
       });
       domString += '</div>';
-      utils.printToDom('stock', domString);
+      utils.printToDom('machine', domString);
+      $('#machine').on('click', '.buy-snack', buySnack);
     })
     .catch((error) => console.error(error));
-  //   .then((singleMachine) => console.log('machine', singleMachine))
-  //   .catch((error) => console.log(error));
-  // // 1. get machines - returns first machine(hard coding)
-  // 2 use machine id to get all positions for that machine
-  // 3 use machineId to get all snack postions
-  // 4 use uid of snackpos to get avail snacks for that machin3
-  // 5 return an array of positions in order (a1,a2,a3) so positions should have position snack exist at that positin
 };
 
 export default { buildTheMachine };

@@ -3,19 +3,18 @@ import apiKeys from '../apiKeys.json';
 
 const baseUrl = apiKeys.firebaseKeys.databaseURL;
 
-const getMachines = () => new Promise((resolve, reject) => {
+const getMachine = () => new Promise((resolve, reject) => {
   axios.get(`${baseUrl}/machines.json`)
     .then((response) => {
       const demMachines = response.data;
       const machines = [];
-      Object.keys(demMachines).forEach((machineId) => {
-        demMachines[machineId].id = machineId;
-        machines.push(demMachines[machineId]);
+      Object.keys(demMachines).forEach((fbId) => {
+        demMachines[fbId].id = fbId;
+        machines.push(demMachines[fbId]);
       });
-      resolve(machines[0]);
-    // hard code
+      resolve(machines[0]); // Hard code to only return first machine that comes back
     })
     .catch((error) => reject(error));
 });
 
-export default { getMachines };
+export default { getMachine };
