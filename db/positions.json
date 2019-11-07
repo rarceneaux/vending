@@ -2,46 +2,46 @@
   "position1":{
     "position": "A1",
     "machineId": "machine1",
-    "Uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+    "uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
   },
   "position2":{
     "position": "A2",
     "machineId": "machine1",
-    "Uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+    "uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
   },
   "position3":{
     "position": "A3",
     "machineId": "machine1",
-    "Uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2" 
+    "uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2" 
   },
   "position4":{
     "position": "B1",
     "machineId": "machine1",
-    "Uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+    "uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
   },
   "position5":{
     "position": "B2",
     "machineId": "machine1",
-    "Uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+    "uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
   },
   "position6":{
     "position": "B3",
     "machineId": "machine1",
-    "Uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+    "uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
   },
   "position7":{
     "position": "C1",
     "machineId": "machine1",
-    "Uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+    "uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
   },
   "position8":{
     "position": "C2",
     "machineId": "machine1",
-    "Uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
+    "uid":"AqUxcbXtO6TnuJWSiHcX7i4oplG2"
   },
   "position9":{
     "position": "C3",
     "machineId": "machine1",
-    "Uid":"12345"
+    "uid":"12345"
   }
 }

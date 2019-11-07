@@ -1,14 +1,15 @@
 {
   "snack1": {
-    "imgaeUrl": "https://mobileimages.lowes.com/product/converted/040000/040000001027.jpg?size=xl",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQXnK2L0SGKYqFaWD4DeUTVXacOKiXFDXBgvMra8suHfSsxkAo56yRrGcbponAoONTs45DZrSDs5D-4Q1xvN1sBd88P2rqfMtT0vs4jg4ZM&usqp=CAc",
     "name": "Sour Patch",
     "price": 6,
     "currentStocked": 6,
     "lifetimeNum": 9,
     "uid": "AqUxcbXtO6TnuJWSiHcX7i4oplG2"  
+    
   },
     "snack2": {
-    "imgaeUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQySoV7Sx7rHzEO8fitRjQejqM3RJslBJREsqprn56dpyr89g0Q_KEwPx3nq0RuceT-F3RtieAYg1L4TksrJfFI6qDDtimT1Z5t-KeohwksEjWuzu4NcMyZ&usqp=CAc",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQySoV7Sx7rHzEO8fitRjQejqM3RJslBJREsqprn56dpyr89g0Q_KEwPx3nq0RuceT-F3RtieAYg1L4TksrJfFI6qDDtimT1Z5t-KeohwksEjWuzu4NcMyZ&usqp=CAc",
     "name": "Snickers",
     "price": 7,
     "currentStocked": 6,
@@ -16,7 +17,7 @@
     "uid": "AqUxcbXtO6TnuJWSiHcX7i4oplG2" 
   }, 
     "snack3": {
-    "imgaeUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSBmFtfyN9HhhLmbXKB7X7JyzAoyDcGF8dTp3-UyzOioQoyuLht2DIqLov-sKtJHZy3yBi-qle0fGfSXegb-rFlmM_EAuii-CsXidaCdtISnU5Qz_U7ueegXQ&usqp=CAc",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSBmFtfyN9HhhLmbXKB7X7JyzAoyDcGF8dTp3-UyzOioQoyuLht2DIqLov-sKtJHZy3yBi-qle0fGfSXegb-rFlmM_EAuii-CsXidaCdtISnU5Qz_U7ueegXQ&usqp=CAc",
     "name": "Skittles",
     "price": 6,
     "currentStocked": 6,
@@ -24,7 +25,7 @@
     "uid": "AqUxcbXtO6TnuJWSiHcX7i4oplG2"
   },
     "snack4": {
-    "imgaeUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQF0N8rvhoAUb1CgxgV4Ad-QVFCrTZJE5_fjEyUhfwe-0wGTA1GvnI475BKAUgPtc0bz_v3enC9cSpVx5-abSKEf-XOCk7Fp4rrlK1Gi3NQ&usqp=CAc",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQF0N8rvhoAUb1CgxgV4Ad-QVFCrTZJE5_fjEyUhfwe-0wGTA1GvnI475BKAUgPtc0bz_v3enC9cSpVx5-abSKEf-XOCk7Fp4rrlK1Gi3NQ&usqp=CAc",
     "name": "Sour Worms",
     "price": 4,
     "currentStocked": 4,
@@ -32,7 +33,7 @@
     "uid": "AqUxcbXtO6TnuJWSiHcX7i4oplG2"
   },
   "snack5": {
-    "imgaeUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQLggra6nXpeYJn_cEVaKQth40X9Em1mw6G1wc5oN6sJSizh58AhF6qfDX2lItR8vucg9Yl6T3Aqx0Kj3jieI6BUrPfd9xYzo7Y7fHBdcBtfsmhDDt8AuM19w&usqp=CAc",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQLggra6nXpeYJn_cEVaKQth40X9Em1mw6G1wc5oN6sJSizh58AhF6qfDX2lItR8vucg9Yl6T3Aqx0Kj3jieI6BUrPfd9xYzo7Y7fHBdcBtfsmhDDt8AuM19w&usqp=CAc",
     "name": "M & M",
     "price": 7,
     "currentStocked": 5,

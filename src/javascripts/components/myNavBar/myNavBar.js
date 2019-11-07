@@ -1,7 +1,6 @@
 import $ from 'jquery';
 import firebase from 'firebase/app';
 import 'firebase/auth';
-// import loginButton from '../Auth/auth';
 
 const authDiv = $('#auth');
 const logoutButton = $('#navbar-button-logout');
@@ -12,10 +11,9 @@ const logoutEvent = () => {
     e.preventDefault();
     firebase.auth().signOut()
       .then(() => {
-        authDiv.addClass('hide');
-        logoutButton.addClass('hide');
-        stockDiv.addClass('hide');
-        // loginButton();
+        authDiv.classList.add('hide');
+        logoutButton.classList.add('hide');
+        stockDiv.classList.add('hide');
       }).catch((err) => console.error('you still logged in', err));
   });
 };
