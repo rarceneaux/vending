@@ -1,7 +1,6 @@
 import $ from 'jquery';
 import smash from '../../helpers/data/smash';
 import utils from '../../helpers/utils';
-
 import snack from '../snack/snack';
 import './machine.scss';
 import snackData from '../../helpers/data/snackData';
@@ -35,5 +34,6 @@ const buildTheMachine = () => {
     })
     .catch((error) => console.error(error));
 };
+
 
 export default { buildTheMachine };
